@@ -17,7 +17,7 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--disable-gpu")
 
 
-class TpsScraper:
+class NetworkScraper:
     def __init__(self) -> None:
         # URLs to pull data from.
         self.hedera_txns_url = "https://hederatxns.com/"
